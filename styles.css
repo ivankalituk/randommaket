@@ -1,0 +1,212 @@
+body{
+    margin: auto;
+    max-width: 1445px;
+}
+/* От начала до фотки включительно */
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 943px;
+    margin-top: 33px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: solid #828282 2px;
+    color: #828282;
+    transition: 2s;
+}
+
+.nav span:hover{
+    color: black;
+}
+
+.nav span{
+    cursor: pointer;
+}
+
+/* второй подблок инфа про автора */
+.autorinfo{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 47px;
+}
+
+/* НЕ ЕБУ ПОЧЕМУ НЕ РАБОТАЕТ ВЕРТИКАЛ АЛАЙН БЛЕАТЬ БЛЕАТЬ БЛЕАТЬ */
+.whothefuckareu{
+    font-size: 18px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    display: inline;
+    vertical-align: bottom;
+}
+
+/* переключение языка */
+.engru{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.eng{
+    color:black;
+}
+
+.ru{
+    color: #828282;
+}
+
+/* фотка */
+.headphoto{
+    margin: 50px 0 104px 0;
+}
+
+/* второй блок */
+.aboutinfo{
+    background-color: #E5E5E5;
+}
+
+.aboutinfocontainer{
+    max-width: 486px;
+    margin: 0 auto 0 auto;
+    padding: 120px 0 107px 0;
+    text-align: center;
+}
+
+
+/* Все заголовки */
+.headtext{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 34px;
+}
+
+/* все второстепенные тексты */
+.headtextinfo{
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+}
+
+.aboutinfo div + div{
+    margin-top: 22px;
+}
+
+/* блок прог фотошоп и тд */
+.programestext{
+    text-align: center;
+}
+
+.programescontainer{
+    margin: 91px auto 110px auto ;
+}
+
+.programestext div + div{
+    margin-top: 69px;
+}
+
+.prognamname{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    margin: 24px 0 40px 0;
+    height: 27px;
+}
+
+.program{
+    text-align: center;
+    max-width: 167px;
+
+}
+
+.stars{
+    margin: 0 0 0 0 ;
+    padding-left: 0px;
+    max-width: 166px;
+    justify-content: space-between;
+}
+
+.programesinfo{
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.programescontainer{
+    max-width: 936.6px;
+}
+
+/* блок фото портфолио */
+
+.portfolio{
+    padding: 113px 0 100 0;
+    background-color: #F6F6F6;
+}
+
+.portfoliocontainer{
+    text-align: center;
+}
+
+.contenttext{
+    margin: 45px 0 0 0;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.headtext2{
+    margin-bottom: 47px;
+}
+
+/* последний блок */
+.portfoliocontainer .content + .content{
+    margin-top: 100px;
+}
+
+.dopinfocontainer{
+    margin: 114px auto 0 auto;
+    max-width: 343px;
+    text-align: center;
+}
+
+.dopinfocontainer .headtext + .headtextinfo{
+    margin-top: 20px;
+}
+
+.headtext3{
+    color: white;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.send{
+    margin: 30px auto 87px auto;
+    max-width: 180px;
+    height: 42px;
+    background-color: black;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksexp{
+    margin-top: 46px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #828282;
+    font-size: 14px;
+}
+
+.dopinfo{
+    padding-bottom: 123px;
+}
